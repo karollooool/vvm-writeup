@@ -1,4 +1,4 @@
-# VVM — Hack The Box Crackme Writeup   
+# VVM — Hack The Box Crackme Writeup          
 
 So I sat down with this little ELF called `vvm`, version `v0.0.3` according to its banner, and it turned out to be one of those virtual machine crackmes where the author writes their own tiny bytecode language on top of x86, obfuscates the handlers, and hides the password check inside the bytecode. The whole thing is only about 23 KB. Small, but dense.
 
